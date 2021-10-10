@@ -11,10 +11,16 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 public class BeersActivity extends AppCompatActivity {
 
-    private TextView mLocationTextView;
-    private ListView mListView;
+//    private TextView mLocationTextView;
+//    private ListView mListView;
+    @BindView(R.id.locationTextView) TextView mLocationTextView;
+    @BindView(R.id.listView) ListView mListView;
+
     private String[] beers   = new String[] {"Kentucky Brunch Brand Stout", "Pips Meadery",
             "Rare Bourbon County Brand Stout (2010)", "Goose Island Beer Co", "King JJJuliusss", "Blessed",
             "Barrel Aged Adjunct Trail", "Rare Bourbon County Brand Stout (2015)", "The Heart of Darkness",
@@ -27,10 +33,10 @@ public class BeersActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_beers);
 
-        mListView = (ListView) findViewById(R.id.listView);
-        mLocationTextView = (TextView) findViewById(R.id.locationTextView);
+//        mListView = (ListView) findViewById(R.id.listView);
+//        mLocationTextView = (TextView) findViewById(R.id.locationTextView);
 
-
+        ButterKnife.bind(this);
         ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, beers);
         mListView.setAdapter(adapter);
 
