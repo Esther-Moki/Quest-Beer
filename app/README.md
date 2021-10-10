@@ -1,16 +1,16 @@
 # Quest Beer
 
-This project happens to be an Android app about Pubs,beers and breweries that allows its users to
-check in as they drink beers,share these check-ins and their locations with their friends.One can
-also rate beers from different countries and while at it earn badges.
+This project happens to be an Android app that allows you to share about your Pubs experience,beers and
+breweries and also allows its users to check in as they drink beers,share these check-ins and their
+locations with their friends.One can also rate beers from different countries and while at it earn badges.
 
 * By Esther Moki
 * Date of current version:10/10/2021
 
 ## Description
-The Quest Beer App allows you to discover and share beer, breweries, and bars with your friends.It is a
-free app for Android.
-
+The Quest Beer App allows you to allows you to socially share the beer you're currently enjoying,as well
+ as where you're enjoying it, with your friends.It is a
+free app for Android users.
 
 ## Setup/Installation Requirement
 
@@ -32,7 +32,7 @@ Languages used include:
 
 ## Build
 
-Run app to build the project. The build artifacts will be stored in the build.gradle.
+Run build.gradle to build the project. The build artifacts will be stored in the build.gradle.
 
 ## Support and Contact details
 
