@@ -16,7 +16,6 @@
         app:srcCompat="@drawable/beer4" />
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -25,7 +24,8 @@
         android:text="Quest Beer"
         android:textColor="@color/colorAmber"
         android:textSize="44sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:id="@+id/appNameTextView"/>
 
 
     <EditText
@@ -51,3 +51,7 @@
         android:text="Find Beers"
         android:textSize="34sp" />
 </RelativeLayout>
+
+
+
+<!--    android:id="@+id/textView"-->
