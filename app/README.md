@@ -36,7 +36,8 @@ Run build.gradle to build the project. The build artifacts will be stored in the
 
 ## Support and Contact details
 
-If you run into any issues or have questions, ideas,concerns or even want to make a contribution to the code,you can drop me an email on esther.moki@student.moringaschool.com.
+If you run into any issues or have questions, ideas,concerns or even want to make a contribution to
+ the code,you can drop me an email on esther.moki@student.moringaschool.com.
 
 ### License
 
