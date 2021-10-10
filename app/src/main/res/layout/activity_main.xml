@@ -15,18 +15,19 @@
         android:scaleType="centerCrop"
         app:srcCompat="@drawable/beer4" />
 
+
     <TextView
+        android:id="@+id/appNameTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/roboto_bold"
         android:text="Quest Beer"
         android:textColor="@color/colorAmber"
-        android:textSize="44sp"
-        android:textStyle="bold"
-        android:id="@+id/appNameTextView"/>
-
+        android:textSize="50sp"
+        android:textStyle="bold" />
 
     <EditText
         android:layout_width="wrap_content"
