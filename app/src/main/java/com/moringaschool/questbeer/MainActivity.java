@@ -12,7 +12,7 @@ import android.widget.TextView;
 ;import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
    // public static final String TAG = MainActivity.class.getSimpleName();
 
 //    private Button mFindBeersButton;
@@ -36,17 +36,19 @@ public class MainActivity extends AppCompatActivity {
 //        mAppNameTextView = (TextView) findViewById(R.id.appNameTextView);
 
         ButterKnife.bind(this);
-        mFindBeersButton.setOnClickListener(new View.OnClickListener() {
+        mFindBeersButton.setOnClickListener(this);
+    }
 
             @Override
             public void onClick(View v) {
-                String location = mLocationEditText.getText().toString();
-               // Log.d(TAG, location);
-                Intent intent = new Intent(MainActivity.this, BeersActivity.class);
-                intent.putExtra("location", location);
-                startActivity(intent);
-
+                if(v == mFindBeersButton) {
+                    String location = mLocationEditText.getText().toString();
+                    // Log.d(TAG, location);
+                    Intent intent = new Intent(MainActivity.this, BeersActivity.class);
+                    intent.putExtra("location", location);
+                    startActivity(intent);
+                }
             }
-        });
-    }
+
+
 }
