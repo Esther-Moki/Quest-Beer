@@ -8,7 +8,7 @@ locations with their friends.One can also rate beers from different countries an
 * Date of current version:10/10/2021
 
 ## Description
-The Quest Beer App allows you to allows you to socially share the beer you're currently enjoying,as well
+The Quest Beer App allows you to socially share the beer you're currently enjoying,as well
  as where you're enjoying it, with your friends.It is a
 free app for Android users.
 
